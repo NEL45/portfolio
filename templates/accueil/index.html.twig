@@ -1,10 +1,18 @@
-<!doctype html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<title>Portfolio</title>
-	</head>
-	<body>
-		<h1>{{ website }} Accueil</h1>
-	</body>
-</html>
+{% extends 'base.html.twig' %}
+
+{% block title %}Portfolio
+<link rel="icon" type="image/png" href="{{ asset('images/Avengers-logo.ico') }}" />
+{# <img src="{{ asset('build/images/avengers-logo.ico') }}" alt="ACME logo"> #}
+{# <href="{{ asset('avengers-logo.png') }}"> #}
+{% endblock %}
+
+{% block body %}
+	{# <img src="{{ asset('build/images/programming-banner.jpg') }}" alt="{{ website }}"/> #}
+	{# <img src="{{ asset('build/images/avengers-logo.png') }}" alt="ACME logo"> #}
+	{# <img src="{{ asset('build/images/avengers-logo.ico') }}" alt="ACME logo"> #}
+
+
+	<h1>{{ website }}
+		Accueil</h1>
+
+{% endblock %}
