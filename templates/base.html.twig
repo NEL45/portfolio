@@ -3,9 +3,11 @@
     <head>
         <meta charset="UTF-8">
         <title>{% block title %}Welcome!{% endblock %}</title>
-        <link rel="icon" href="{{ asset('build/images/Avengers-logo.ico') }}">
+        {# <link rel="icon" href="{{ asset('build/images/Avengers-logo.ico') }}"> #}
+        {# <link rel="shortcut icon" href="/public/favicon.ico" type="image/x-icon" /> #}
+        <link rel="icon" href="/avengers.ico" />
         {# <img src="{{ asset('build/images/avengers-logo.ico') }}" alt="ACME logo"> #}
-
+{# <link rel="icon" href="/build/avengers-logo.ico" /> #}
         {# Run `composer require symfony/webpack-encore-bundle` to start using Symfony UX #}
         {% block stylesheets %}
             {{ encore_entry_link_tags('app') }}
