@@ -1,0 +1,30 @@
+@import "~bootstrap/scss/bootstrap";
+
+// customize some Bootstrap variables
+$primary: darken(#428bca, 20%);
+
+body {
+    background-color: rgb(233, 240, 240);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(70, 18, 200);
+    /* opacity: 0.6; */
+    // background-image: url('../images/bg-table.jpg');
+    background-size: 100%;
+    flex-direction: column;
+}
+
+// div {
+//     color: rgb(45, 34, 85);
+//     align-items:flex-end;
+//     border-radius: 3px;
+//     grid-column-end: auto;
+//     display: block;
+//     font-size: xx-large;
+//     font-family: Arial, Helvetica, sans-serif;
+//     flex-direction:row;
+//     justify-content: end;
+//     justify-items: end;
+//     text-justify: auto;
+//     margin-left: 100px;
+
+// }

@@ -67,7 +67,7 @@ Encore
     })
 
     // enables Sass/SCSS support
-    //.enableSassLoader()
+    .enableSassLoader()
 
     // uncomment if you use TypeScript
     //.enableTypeScriptLoader()
@@ -84,6 +84,20 @@ Encore
 ;
 
 // module.exports = Encore.getWebpackConfig();
+
+    // const path = require('path');
+
+    // Encore
+    //     // ...
+  
+    //   .configureDevServerOptions(options => {
+    //       options.server = {
+    //           type: 'https',
+    //            options: {
+    //               pfx: path.join(process.env.HOME, '.symfony/certs/default.p12'),
+    //            }
+    //        }
+    //    })
 
 const fullConfig = Encore.getWebpackConfig();
 fullConfig.devServer = {
